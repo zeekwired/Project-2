@@ -37,18 +37,18 @@ Training Score: 0.89
 
 This is not bad for an accuracy score for the training set. With a few more hypertunning and boosting avaiablities at hand. That score could be elevated and the model could stay accurate.
 
-Testing Score: 0.86
+Testing Score: 0.87
 
-Test Classification Report:
+Test Classification Report: 
 
               precision    recall  f1-score   support
 
-           0       0.81      0.89      0.84        98
-           1       0.91      0.84      0.87       132
+           0       0.82      0.88      0.85        98
+           1       0.90      0.86      0.88       132
 
 This model resulted in the highest scores for the models chosen for this analysis. It has a common testing score with KNN and Logistic Regression. It has the highest precision score than the other models. However, it is beaten by Logistic Regression within the f1-score.
 
-![RandomForest.png](RandomForest.png)
+![Log.png](Log.png)
 
 This is a confusion matrix that shows all the False Positive, True Positive, False Negatives, and True Negatives. The ratio difference in this model made me believe that it can be configured easier for later developement.
 
