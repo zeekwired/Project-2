@@ -28,11 +28,15 @@ Data Source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-predictio
 
 ---
 # EDA
-
+## Age by Heart Disease
 ![Age by HD.png](https://github.com/zeekwired/Project-2/blob/95ddea0448ef9beb8017d4c74d9fe65414a18327/Age%20by%20HD.png)
 
+- This graph gives you an insight on if a patients sex, chest pain type, and resting ECG matters in determining if at risk for heart disease.
+
+# RestingBP by MaxHR and Oldpeak
 ![RBP by MHR.png](https://github.com/zeekwired/Project-2/blob/20cf0ff0fcfda9d681e3202c5f72623cbc3b4780/RBP%20by%20MHR.png)
 
+- This graph shows trends if a patient with or without heart disease experience high or low RestingBP, MaxHR, and Oldpeak.
 ---
 # Model Evaluation
 The RandomForestClassifier model can be used to estimate the number of patients who are at risk of heart failure based on the number of patients who are at risk. With RandomForestClassifier, subsets of training data are randomly selected to create decision trees.
