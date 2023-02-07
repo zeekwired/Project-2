@@ -29,9 +29,9 @@ Data Source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-predictio
 ---
 # EDA
 
-![Age by HD.png](Age by HD.png)
+![Age by HD.png]('Age by HD.png')
 
-![RBP by MHR.png](RBP by HD.png)
+![RBP by MHR.png]('RBP by HD.png')
 
 ---
 # Model Evaluation
