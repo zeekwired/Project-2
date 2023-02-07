@@ -27,6 +27,13 @@ Data Source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-predictio
 | HeartDisease 	| output class [1: heart disease, 0: Normal 	|
 
 ---
+# EDA
+
+![Age by HD.png](Age by HD.png)
+
+![RBP by MHR.png](RBP by HD.png)
+
+---
 # Model Evaluation
 The RandomForestClassifier model can be used to estimate the number of patients who are at risk of heart failure based on the number of patients who are at risk. With RandomForestClassifier, subsets of training data are randomly selected to create decision trees.
 
@@ -46,7 +53,7 @@ Test Classification Report:
            0       0.82      0.88      0.85        98
            1       0.90      0.86      0.88       132
 
-This model resulted in the highest scores for the models chosen for this analysis. It has a common testing score with KNN and Logistic Regression. It has the highest precision score than the other models. However, it is beaten by Logistic Regression within the f1-score.
+The LogisticRegression model resulted in the highest scores for the models chosen for this analysis. It has a higher testing score with DecisionTreeClassifier and RandomForestClassifier. It has the highest precision score than the other models.
 
 ![Log.png](Log.png)
 
