@@ -63,5 +63,5 @@ The LogisticRegression model resulted in the highest scores for the models chose
 
 This is a confusion matrix that shows all the False Positive, True Positive, False Negatives, and True Negatives. The ratio difference in this model made me believe that it can be configured easier for later developement.
 
-## Model Real Life Probility
+## Model Real Life Probability
 More than likely this model is no where near being able to predict something like this for a couple of months. However, with futher development, configure this model to predict the score with more false positives than negatives. It could be used to predict patients at risk heart disease. 
